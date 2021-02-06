@@ -1,5 +1,5 @@
 ## 01-Interactive-Fiction
-Project 01 for Bl-MSCH-C220. 6 February 2021
+Project 01 for Bl-MSCH-C220. 6 February 2021.
 Implements a Twine project, by exporting it as a JSON file, in a home-grown game engine written in Python.
 
 ## Implementation
