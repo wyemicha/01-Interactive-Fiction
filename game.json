@@ -1,0 +1,292 @@
+{
+    "passages": [
+      {
+        "text": "It is the worst snow storm Bloomington has had in years. As a wide-eyed freshman, you need to get back to your dorm as quickly as possible.\nYou are standing in between Indiana University's most iconic monument, the sample gates. Large limestone arches rise on either side of you split by a  brick pathway leading towards campus.\nThe snowfall is so thick that you can barely see past your hands.\nBehind you, towards the west, the usually busy street of Kirkwood seems eeriely quiet. \n[[Go forward->Empty bench...]] \n[[Go backwards->Kirkwood]] \n[[Go right->Construction]]\n[[Go left->Walk]]",
+        "links": [
+          {
+            "name": "Go forward",
+            "link": "Empty bench...",
+            "pid": "3"
+          },
+          {
+            "name": "Go backwards",
+            "link": "Kirkwood",
+            "pid": "5"
+          },
+          {
+            "name": "Go right",
+            "link": "Construction",
+            "pid": "2"
+          },
+          {
+            "name": "Go left",
+            "link": "Walk",
+            "pid": "6"
+          }
+        ],
+        "name": "Sample Gates",
+        "pid": "1",
+        "position": {
+          "x": "400",
+          "y": "200"
+        }
+      },
+      {
+        "text": "You decide to head right and walk south down Indiana to get to your dorm.\nAs you pass the Kirkwood Observatory you had forgotten about the IU Notify gas leak that was located across from Buffalouies.\nDue to the terrible storm, with one miss placed step you fall through the opened manhole and plummet into the sewer.\nYou died.",
+        "name": "Construction",
+        "pid": "2",
+        "position": {
+          "x": "555",
+          "y": "225"
+        }
+      },
+      {
+        "text": "You trudge forward up the brick path and onto IU's campus, but with every step, the air grows even colder and uneasiness begins to creep into your thoughts. \n*What is this feeling of paranoia* You wonder \nYou stop suddenly in front of three benches laid out in a semicircle. The ones on the right and left are covered in snow, but the middle one shows signs of recent occupation with footprints leading towards the woods. \nSomething is missing. [[Follow the footprints->Woods]]",
+        "links": [
+          {
+            "name": "Follow the footprints",
+            "link": "Woods",
+            "pid": "4"
+          }
+        ],
+        "name": "Empty bench...",
+        "pid": "3",
+        "position": {
+          "x": "289",
+          "y": "324"
+        }
+      },
+      {
+        "text": "Curiosity gets the better of you and you follow the footprints towards the woods near Swain Hall.\nAs you wander the snowfall begins to fall thicker and thicker. \nYou hear a mechanical whirl behind you.\nSpinning around you see red glowing eyes and a metal body shifting towards you.\nHerman.\nFear paralyzes you, as he lumbers closer.\n[[Run->Run]] \n[[Fight->Fight]]",
+        "links": [
+          {
+            "name": "Run",
+            "link": "Run",
+            "pid": "7"
+          },
+          {
+            "name": "Fight",
+            "link": "Fight",
+            "pid": "8"
+          }
+        ],
+        "name": "Woods",
+        "pid": "4",
+        "position": {
+          "x": "289",
+          "y": "474"
+        }
+      },
+      {
+        "text": "Like the bewildered freshman that you are, you decide heading towards downtown is the fastest way to your dorm. \nAs you make your way down the Kirkwood sidewalk, you begin to notice that every store has boarded up their windows and doors, as if to prevent someone from entering. \nYou begin to get a bad feeling about this situation. \n[[Continue forward->Apocalypse]]\n[[Return to the Sample Gates->Sample Gates]]",
+        "links": [
+          {
+            "name": "Continue forward",
+            "link": "Apocalypse",
+            "pid": "9"
+          },
+          {
+            "name": "Return to the Sample Gates",
+            "link": "Sample Gates",
+            "pid": "1"
+          }
+        ],
+        "name": "Kirkwood",
+        "pid": "5",
+        "position": {
+          "x": "400",
+          "y": "350"
+        }
+      },
+      {
+        "text": "Confident in your navigational skills, you turn left and march through the blizzard and make it to Wright Quad safe and sound.\nAs you settle into your bed for the night, you close your eyes and in the darkness see a pair of glowing red eyes.\nYou open your eyes in a panic; knowing that you have narrowly avoided a grim fate.",
+        "name": "Walk",
+        "pid": "6",
+        "position": {
+          "x": "520",
+          "y": "350"
+        }
+      },
+      {
+        "text": "Fear kicks your natural instincts into gear as you sprint into the gloom hoping that somewhere the doors of Swain West must be near.\nYou hear the growl of gears getting closer and closer.\n*WHAM*\nBy some miracle the doors were unlocked and you slam them shut turning the bolt lock right as the mechanical monster pounds on the door.\n*BAM*\n*BAM*\n*BAM*\nThen, silence.\nYou heave a small sigh of relief but know that you are not out of the clear yet.\nHe is coming.\n*To be continued...*",
+        "name": "Run",
+        "pid": "7",
+        "position": {
+          "x": "214",
+          "y": "624"
+        }
+      },
+      {
+        "text": "Unbenounced to this machine of death plowing towards you, you are a double black belt in Brazilian jiu-jitsu. \nWith one fatal kick, you crumple the statue into pieces and it collapses in front of you.\nJust another day at IU.",
+        "name": "Fight",
+        "pid": "8",
+        "position": {
+          "x": "364",
+          "y": "624"
+        }
+      },
+      {
+        "text": "After minutes of trudging, you reach Bloomington's downtown.\nMuch to your dismay, every shop surrounding the once beautiful square has been baracaded with micallaneous objects: chairs, couches, and desks all preventing anyone from entering.\nOr anything.\n*What is going on?* You wonder to yourself. \n*It's like we're in an apocolypse.*\n[[Call friend->Friend]]\n[[Keep Walking->Horde]]\n[[Turn around->Kirkwoodreturn]] ",
+        "links": [
+          {
+            "name": "Call friend",
+            "link": "Friend",
+            "pid": "10"
+          },
+          {
+            "name": "Keep Walking",
+            "link": "Horde",
+            "pid": "11"
+          },
+          {
+            "name": "Turn around",
+            "link": "Kirkwoodreturn",
+            "pid": "12"
+          }
+        ],
+        "name": "Apocalypse",
+        "pid": "9",
+        "position": {
+          "x": "585",
+          "y": "491"
+        }
+      },
+      {
+        "text": "Frantically, you call your buddy Jason in the hopes of getting a ride home.\nThe phone rings.\nAnd rings.\nNo answer\n*Thats odd, he always picks up*\n[[Leave a message->message]]\n[[Keep walking->Horde]] \n[[Turn around->Kirkwoodreturn]] ",
+        "links": [
+          {
+            "name": "Leave a message",
+            "link": "message",
+            "pid": "13"
+          },
+          {
+            "name": "Keep walking",
+            "link": "Horde",
+            "pid": "11"
+          },
+          {
+            "name": "Turn around",
+            "link": "Kirkwoodreturn",
+            "pid": "12"
+          }
+        ],
+        "name": "Friend",
+        "pid": "10",
+        "position": {
+          "x": "483",
+          "y": "631"
+        }
+      },
+      {
+        "text": "The blizzard rages as you continue your trek.\nSuddenly, piercing the silence, a mechanical groan fills the air. As if a thousand gears began turning.\nYou hear the faint sound of marching behind you.\nSpinning around you gasp as you see, about a hundred yards away, a legion of mechanical robots have begun walking towards you. Illuminated only by their glowing red eyes.\nFear paraylyzes you and you stare in disbelief.\n*That is impossible!*\nTheir leader rides atop a jet black steed seemingly made entirely of steel. He is also mechanical but appears more statue-like, with a black fedora on his head.\n*Hogie?*\nHe has spotted you.\n[[Run->Rescue]]\n[[Fight->Die]]",
+        "links": [
+          {
+            "name": "Run",
+            "link": "Rescue",
+            "pid": "15"
+          },
+          {
+            "name": "Fight",
+            "link": "Die",
+            "pid": "16"
+          }
+        ],
+        "name": "Horde",
+        "pid": "11",
+        "position": {
+          "x": "804",
+          "y": "608"
+        }
+      },
+      {
+        "text": "You are back at Kirkwood and a feeling of paranoia continues to grow.\n[[Go forward ->Sample Gates]] ",
+        "links": [
+          {
+            "name": "Go forward ",
+            "link": "Sample Gates",
+            "pid": "1"
+          }
+        ],
+        "name": "Kirkwoodreturn",
+        "pid": "12",
+        "position": {
+          "x": "692",
+          "y": "361"
+        }
+      },
+      {
+        "text": "You decide to leave Jason a message in the hopes that he will see it.\n[[keep walking->horderescue]]\n[[Turn around->Kirkwoodreturn]] ",
+        "links": [
+          {
+            "name": "keep walking",
+            "link": "horderescue",
+            "pid": "14"
+          },
+          {
+            "name": "Turn around",
+            "link": "Kirkwoodreturn",
+            "pid": "12"
+          }
+        ],
+        "name": "message",
+        "pid": "13",
+        "position": {
+          "x": "530",
+          "y": "795"
+        }
+      },
+      {
+        "text": "The blizzard rages as you continue your trek.\nSuddenly, piercing the silence, a mechanical groan fills the air. As if a thousand gears began turning.\nYou hear the faint sound of marching behind you.\nSpinning around you gasp as you see, about three hundred yards away, a legion of mechanical robots have begun walking towards you. Illuminated only by their glowing red eyes.\nFear paraylyzes you and you stare in disbelief.\n*That is impossible!*\nTheir leader rode atop a jet black steed seemingly made entirely of steel. He was also mechanical but appeared more statue-like, with a black fedora on his head.\n*Hogie?*\nHe has spotted you.\n[[run->realrescue]]\n[[fight->Die]] ",
+        "links": [
+          {
+            "name": "run",
+            "link": "realrescue",
+            "pid": "17"
+          },
+          {
+            "name": "fight",
+            "link": "Die",
+            "pid": "16"
+          }
+        ],
+        "name": "horderescue",
+        "pid": "14",
+        "position": {
+          "x": "483",
+          "y": "931"
+        }
+      },
+      {
+        "text": "You turn and run as fast as you can down the street, but the blizzard has gotten stronger.\nSneaking a peak, you see the glowing of red eyes getting closer and closer.\nYou know that you cannot out run him.\nYou try to turn sharply down an alley way but slip and fall on a patch of ice.\nHe is here\nYou see him get off his horse and walk towards you. The face of once a popular IU icon now twisted into a mechanical mash of gears and metal. He smilies and you know its all over.\nYou died",
+        "name": "Rescue",
+        "pid": "15",
+        "position": {
+          "x": "675",
+          "y": "783"
+        }
+      },
+      {
+        "text": "Summoning the courage of one hundred Kelley students, you stand tall as the horde approaches you knowing that if you go down, at least maybe one or two will go down with you.\nHopefully.\nAs its leader thunders towards you, a brass sword raised high, you think this may not have been the best idea. And if this were to be a fictional game/world you were expericing, you would definitely want to try again.\nYou died.",
+        "name": "Die",
+        "pid": "16",
+        "position": {
+          "x": "802",
+          "y": "784"
+        }
+      },
+      {
+        "text": "You sprint down the street, hearing the thundering of hooves behind you.\nSneaking a peak, you see the glowing of red eyes getting closer and closer.\nYou know that you cannot out run him.\nSuddenly a car pulls up in front of you!\n\"Get in!!\" The driver yells.\nYou dive in to the car right as you feel the cold touch of metal on your leg.\nThe driver takes off down the road.\n\"That was close call\" he yelled as he sped down the road.\nJason had come to your rescue.",
+        "name": "realrescue",
+        "pid": "17",
+        "position": {
+          "x": "483",
+          "y": "1081"
+        }
+      }
+    ],
+    "name": "Project 1",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "1826D973-7355-4560-A08E-300E70527892"
+  }
